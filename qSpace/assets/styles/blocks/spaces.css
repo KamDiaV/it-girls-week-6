@@ -1,0 +1,112 @@
+.spaces {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 200px;
+}
+
+.spaces-title {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.spaces-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.space-item {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto; 
+  gap: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  text-align: center;
+  min-height: 640px;
+}
+
+
+.highlighted {
+  background-color: #FFF0D2; 
+}
+
+.space-title {
+  font-size: 24px;
+  color: #000;
+  text-align: center; 
+  margin: 40px auto 16px auto; 
+}
+
+.space-description {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 155%;
+  text-align: center; 
+  margin-bottom: 64px; 
+  min-height: 140px;
+}
+
+.space-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: left; 
+}
+
+.space-benefits li {
+  font-size: 18px;
+  line-height: 155%;
+  color: #6c757d;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.space-benefits li::before {
+  content: "✓";
+  color: #ffb347; 
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.space-link {
+  text-align: center; 
+  font-size: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: auto;
+  margin-bottom: 24px;
+  border: solid rgba(18, 84, 255, 0.1); 
+  border-radius: 8px;
+  padding: 16px 24px;
+  width: 192px;
+  height: 36px;
+}
+
+.space-link span {
+  font-size: 22px;
+  transition: transform 0.3s ease;
+}
+
+.space-link:hover span {
+  transform: translateX(5px); 
+}
+
+.hovered {
+  background-color: #FFB21E;
+  color: white;
+  border: none;
+}

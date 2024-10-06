@@ -1,0 +1,137 @@
+.footer {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr; 
+  gap: 72px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.footer-about {
+  text-align: left;
+  margin-right: 80px; 
+}
+
+.footer-logo {
+  width: 137px;
+  height: 34px;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 155%;
+  margin-bottom: 24px;
+}
+
+.footer-socials {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 24px;
+  align-items: center; 
+}
+
+.footer-socials a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #ffb347;
+}
+
+.footer-links,
+.footer-community,
+.footer-subscribe {
+  text-align: left;
+}
+
+.footer-links h4,
+.footer-community h4,
+.footer-subscribe h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  white-space: nowrap;
+}
+
+.footer-links ul,
+.footer-community ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-community li {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.footer-links a,
+.footer-community a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-community a:hover {
+  color: #FFB21E;
+}
+
+.footer-subscribe {
+  text-align: left;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px; 
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+}
+
+.subscribe-form input {
+  border: none;
+  height: 56px; 
+  width: 314px; 
+  padding: 0 16px; 
+  font-size: 18px;
+  outline: none;
+  color: #555;
+  border-radius: 8px 0 0 8px; 
+}
+
+.subscribe-form button {
+  border: none;
+  background: #ffb347; 
+  width: 100px; 
+  height: 56px; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 8px 8px 0; 
+}
+
+.subscribe-form button img {
+  width: 24px;
+  height: auto;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #6c757d;
+}

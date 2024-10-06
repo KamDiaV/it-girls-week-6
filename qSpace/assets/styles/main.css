@@ -1,0 +1,18 @@
+@import url("./blocks/header.css");
+@import url("./blocks/hero.css");
+@import url("./blocks/about.css");
+@import url("./blocks/facilities.css");
+@import url("./blocks/spaces.css");
+@import url("./blocks/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif; 
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Questrial', serif;
+}
